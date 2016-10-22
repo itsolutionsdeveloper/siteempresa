@@ -1,0 +1,100 @@
+@font-face{
+	font-family: "Berlin Sans FB Demi Negrito";
+	src: url('../font/Berlin Sans FB Demi Negrito.ttf');
+}
+
+body{
+	width: 90%;
+	margin: auto;
+}
+
+.content,
+.body,
+.foot{
+	width: 100%;
+}
+
+.content-left,
+.content-center,
+.content-right
+{
+	width: 30%;
+	float: left;
+	height: 150px;
+	display: block;
+}
+
+.content-center{
+	width: 40%;
+}
+
+.content nav{
+	clear: both;
+	width: 100%;
+	border-bottom: 5px solid #ff0000;
+}
+
+.content nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+	background: #333;
+}
+
+.content nav ul li{
+	float: left;
+}
+
+.content nav ul li a{
+	color: #f3f3f3;
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.content nav ul li a:hover{
+	background: #222;
+}
+
+
+.content-left h1,
+.content-left h2,
+.content-left h3,
+.content-left h4,
+.content-left h5,
+.content-left h6,
+.content-center h1,
+.content-center h2,
+.content-center h3,
+.content-center h4,
+.content-center h5,
+.content-center h6,
+.content-right h1,
+.content-right h2,
+.content-right h3,
+.content-right h4,
+.content-right h5,
+.content-right h6{
+	width: 100%;
+	margin: 0px;
+	color: #222;
+	padding: 0px;
+	display: block;
+	font-size: 3em;
+	line-height: 75px;
+	text-align: center;
+	font-family: "Berlin Sans FB Demi Negrito";
+}
+
+.body{
+	padding: 0px;
+}
+
+.foot{
+	clear: both;
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+	height: 300px;
+}
